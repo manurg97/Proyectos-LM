@@ -1,88 +1,78 @@
-# 🌍 Informática Ambiental
+# Informática ambiental
 
-## 📌 Autores
-- Nombre Apellido
-- Nombre Apellido
-- Nombre Apellido
-
----
-
-## 📑 Índice
-1. [¿Qué es la contaminación ambiental?](#qué-es-la-contaminación-ambiental)
-2. [Residuos informáticos](#residuos-informáticos)
-3. [Obsolescencia programada](#obsolescencia-programada)
-4. [Informática ecológica](#informática-ecológica)
-5. [Referencias](#referencias)
+## Autores
+- Pablo Segura
+- Manuel Rondan
+- Sergio Quemada
 
 ---
 
-## ¿Qué es la contaminación ambiental?
+## Índice
+1. Qué es la contaminación ambiental  
+2. Residuos informáticos  
+3. Obsolescencia programada  
+4. Informática ecológica  
+5. Referencias  
 
-La **contaminación ambiental** es la presencia de sustancias o energía en el medio ambiente que provocan efectos negativos en la naturaleza y en los seres vivos.
+---
+
+## Qué es la contaminación ambiental
+
+La contaminación ambiental es la presencia de sustancias o elementos dañinos en el entorno que afectan negativamente a la naturaleza y a los seres vivos.  
+
+En la actualidad, el desarrollo tecnológico también tiene impacto en el medio ambiente. La fabricación de dispositivos electrónicos requiere recursos naturales y energía, lo que contribuye al aumento de la contaminación si no se gestiona correctamente.
 
 ![Contaminación ambiental](imagenes/contaminacion.jpg)
 
-La tecnología y el uso masivo de dispositivos electrónicos también contribuyen a este problema debido al consumo de recursos y la generación de residuos.
-
 ---
 
-## 💻 Residuos informáticos
+## Residuos informáticos
 
-Los **residuos informáticos** o *e-waste* son dispositivos electrónicos que ya no se utilizan.
+Los residuos informáticos son todos aquellos dispositivos electrónicos que dejan de utilizarse, como ordenadores, teléfonos móviles, impresoras o baterías.
 
-Ejemplos:
-- Ordenadores antiguos
-- Teléfonos móviles
-- Impresoras
-- Baterías
+Cuando estos dispositivos se tiran sin un reciclaje adecuado pueden liberar materiales contaminantes como plomo, mercurio o cadmio, que afectan al suelo y al agua.
 
 ![Residuos electrónicos](imagenes/residuos.jpg)
 
-Estos residuos contienen materiales contaminantes como:
-- Plomo
-- Mercurio
-- Cadmio
+Por eso es importante llevar estos aparatos a puntos de reciclaje especializados.
 
 ---
 
-## ⏳ Obsolescencia programada
+## Obsolescencia programada
 
-La **obsolescencia programada** es una estrategia en la que los productos están diseñados para durar un tiempo limitado.
+La obsolescencia programada es una estrategia utilizada en algunos productos tecnológicos para que tengan una vida útil limitada.  
+
+Esto hace que los usuarios tengan que reemplazar sus dispositivos después de cierto tiempo, incluso cuando todavía podrían seguir funcionando.
 
 ![Obsolescencia programada](imagenes/obsolescencia.jpg)
 
-Esto provoca:
-- Más consumo
-- Más residuos electrónicos
-- Mayor impacto ambiental
+Este fenómeno aumenta el consumo y genera una mayor cantidad de residuos electrónicos.
 
 ---
 
-## 🌱 Informática ecológica
+## Informática ecológica
 
-La **informática ecológica** busca reducir el impacto ambiental de la tecnología.
+La informática ecológica busca reducir el impacto ambiental de la tecnología mediante prácticas más responsables.
 
 ![Informática ecológica](imagenes/informatica-ecologica.jpg)
 
-Algunas soluciones son:
+Algunas medidas que ayudan a reducir el impacto ambiental son:
 
-- Reciclar dispositivos electrónicos
-- Usar equipos de bajo consumo
-- Alargar la vida útil de los dispositivos
-- Comprar tecnología sostenible
+- Utilizar dispositivos con menor consumo energético  
+- Reparar equipos antes de reemplazarlos  
+- Reciclar correctamente los dispositivos electrónicos  
+- Usar energías renovables en centros de datos  
 
-> 💡 **Dato:** Reducir el consumo energético de los centros de datos es clave para proteger el medio ambiente.
-
----
-
-## 🔗 Referencias
-
-- https://www.greenpeace.org
-- https://www.un.org
-- https://www.ecotic.es
+El objetivo es hacer un uso más sostenible de la tecnología.
 
 ---
 
-## 🏫 Proyecto académico
+## Referencias
 
-Trabajo realizado para la asignatura de **Informática** sobre protección medioambiental.
+- https://www.greenpeace.org  
+- https://www.un.org  
+- https://www.ecotic.es  
+
+---
+
+Trabajo realizado para la asignatura de informática.
