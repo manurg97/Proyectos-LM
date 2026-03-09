@@ -1,12 +1,31 @@
----
-layout: default
-title: Inicio
----
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }}</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+h1, h2 { color: #2E8B57; }
+nav a { margin-right: 15px; text-decoration: none; color: #006400; }
+footer { margin-top: 50px; font-size: 0.9em; color: gray; }
+</style>
+</head>
+<body>
 
-## Índice
+<h1>Proyecto de Informática Ambiental 🌱💻</h1>
 
-1. [Introducción](alumno1.html)
-2. [residuos informáticos] (residuos.html)
-3. [Soluciones sostenibles](alumno3.html)
+<nav>
+<a href="index.html">Inicio</a>
+</nav>
 
-Este proyecto trata sobre la relación entre informática y medio ambiente.
+<hr>
+
+{{ content }}
+
+<hr>
+<footer>
+Trabajo informática ambiental
+</footer>
+
+</body>
+</html>
