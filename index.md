@@ -1,31 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>{{ page.title }}</title>
-<style>
-body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
-h1, h2 { color: #2E8B57; }
-nav a { margin-right: 15px; text-decoration: none; color: #006400; }
-footer { margin-top: 50px; font-size: 0.9em; color: gray; }
-</style>
-</head>
-<body>
+---
+layout: default
+title: Inicio
+---
 
-<h1>Proyecto de Informática Ambiental 🌱💻</h1>
+# Índice del Proyecto
 
-<nav>
-<a href="index.html">Inicio</a>
-</nav>
+1. [Qué es la contaminación ambiental](contaminacion.html)
+2. [Residuos informáticos](residuos.html)
+3. [Obsolescencia programada](obsolescencia.html)
+4. [Informática ecológica](informatica.html)
+5. [Referencias](referencias.html)
 
-<hr>
-
-{{ content }}
-
-<hr>
-<footer>
-Trabajo informática ambiental
-</footer>
-
-</body>
-</html>
+Este proyecto analiza la relación entre la informática y el medio ambiente.
