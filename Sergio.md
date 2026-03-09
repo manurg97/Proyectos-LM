@@ -1,1 +1,0 @@
-Check out the sections on [Obsolescencia Programada](#obsolescencia_programada) and [Informática Ecológica](#informatica_ecologica).
