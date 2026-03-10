@@ -1,7 +1,7 @@
 ## Referencias
 
 <style>
-  .tabla-ref-cool {
+  .tabla-ref-blue {
     width: 100%;
     border-collapse: collapse;
     margin: 30px 0;
@@ -12,39 +12,39 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   }
 
-  .tabla-ref-cool thead tr {
-    background: linear-gradient(90deg, #ff7f50, #ff1493);
+  .tabla-ref-blue thead tr {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
     color: white;
     font-weight: bold;
     text-align: left;
   }
 
-  .tabla-ref-cool th, .tabla-ref-cool td {
+  .tabla-ref-blue th, .tabla-ref-blue td {
     padding: 15px 20px;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #e6f0ff;
   }
 
-  .tabla-ref-cool tbody tr:nth-child(even) {
-    background: #fff7fb;
+  .tabla-ref-blue tbody tr:nth-child(even) {
+    background: #f2f8ff;
   }
 
-  .tabla-ref-cool tbody tr:hover {
-    background: #ffe3f1;
+  .tabla-ref-blue tbody tr:hover {
+    background: #dff0ff;
     transition: 0.3s ease;
   }
 
-  .tabla-ref-cool a {
-    color: #ff1493;
+  .tabla-ref-blue a {
+    color: #007bff;
     font-weight: bold;
     text-decoration: none;
   }
 
-  .tabla-ref-cool a:hover {
+  .tabla-ref-blue a:hover {
     text-decoration: underline;
   }
 </style>
 
-<table class="tabla-ref-cool">
+<table class="tabla-ref-blue">
   <thead>
     <tr>
       <th>Fuente</th>
@@ -65,16 +65,4 @@
       <td><a href="https://www.greenpeace.org">Visitar</a></td>
     </tr>
     <tr>
-      <td>Naciones Unidas</td>
-      <td><a href="https://www.un.org">Visitar</a></td>
-    </tr>
-    <tr>
-      <td>ECOTIC</td>
-      <td><a href="https://www.ecotic.es">Visitar</a></td>
-    </tr>
-    <tr>
-      <td>ChatGPT</td>
-      <td><a href="https://www.chatgpt.com">Visitar</a></td>
-    </tr>
-  </tbody>
-</table>
+      <td>Naciones
