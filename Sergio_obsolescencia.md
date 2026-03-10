@@ -80,8 +80,15 @@
 
 <div markdown="1">
 
-<div style="text-align: center;">
-  <h1>Obsolescencia Programada</h1>
+<div style="
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #2ea44f, #6f42c1);
+  color: white;
+  margin: 20px auto;
+">
+  <h1 style="margin: 0; font-size: 2.2em;">🕰️ Obsolescencia Programada</h1>
 </div>
 > **"Un producto que no se desgasta es una tragedia para los negocios."**
 
