@@ -118,5 +118,4 @@ Todos podemos contribuir a proteger el planeta adoptando comportamientos respons
 
 ---
 
-🔙 [Volver al índice](README.md)
-[⬅ Volver al índice](index.html)
+🔙 [⬅ Volver al índice](index.html)
