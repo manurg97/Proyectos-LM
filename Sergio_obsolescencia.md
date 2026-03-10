@@ -1,132 +1,119 @@
 ---
 layout: default
-title: Obsolescencia Programada - Sergio
+title: Análisis - Obsolescencia Programada
 ---
 
 <style>
-  /* --- ANIMACIONES --- */
-  @keyframes slideIn {
-    0% { opacity: 0; transform: translateX(-20px); }
-    100% { opacity: 1; transform: translateX(0); }
-  }
+/* --- ANIMACIONES --- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
-  @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(38, 166, 154, 0.4); }
-    70% { box-shadow: 0 0 0 10px rgba(38, 166, 154, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(38, 166, 154, 0); }
-  }
+.animado { animation: fadeInUp 0.8s ease-out forwards; }
 
-  .entrada { animation: slideIn 0.8s ease-out forwards; }
-  
-  /* --- ESTILOS PERSONALIZADOS --- */
-  .header-personalizado {
-    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
-    background-size: cover;
-    padding: 40px 20px;
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    margin-bottom: 30px;
-  }
+/* --- HEADER PRINCIPAL --- */
+.hero-obsolescencia {
+  background: linear-gradient(135deg, #1b5e20 0%, #4caf50 100%);
+  color: white;
+  padding: 50px 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
 
-  .tarjeta-info {
-    background: #f8f9fa;
-    border-left: 5px solid #2e7d32;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 0 10px 10px 0;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
-  }
+/* --- CAJA DE TEXTO PRINCIPAL --- */
+.bloque-texto {
+  background: #f1f8e9;
+  border-left: 6px solid #2e7d32;
+  padding: 25px;
+  border-radius: 8px;
+  line-height: 1.8;
+  font-size: 1.1em;
+  margin: 20px 0;
+}
 
-  .highlight {
-    color: #2e7d32;
-    font-weight: bold;
-  }
+/* --- TARJETAS DE IMPACTO --- */
+.contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
 
-  .grid-imagenes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 30px 0;
-  }
+.tarjeta-impacto {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
 
-  .img-efecto {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-    border: 2px solid #ddd;
-  }
+.tarjeta-impacto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  border-color: #4caf50;
+}
 
-  .img-efecto:hover {
-    transform: scale(1.05);
-    border-color: #26a69a;
-  }
+.tarjeta-impacto h3 {
+  color: #2e7d32;
+  margin-top: 10px;
+}
 
-  .badge-tech {
-    display: inline-block;
-    padding: 5px 15px;
-    background: #333;
-    color: #fff;
-    border-radius: 20px;
-    font-size: 0.8em;
-    margin-right: 5px;
-  }
+/* --- BOTONES DE NAVEGACIÓN --- */
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.btn-nav {
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-home { background: #607d8b; color: white !important; }
+.btn-next { background: #2e7d32; color: white !important; }
+
 </style>
 
-<div markdown="1" class="entrada">
+<div class="animado" markdown="1">
 
-<div class="header-personalizado">
-  <h1 style="color: white; margin: 0; font-size: 2.5em;">♻️ Obsolescencia Programada</h1>
-  <p style="font-style: italic; opacity: 0.9;">"Diseñado para romperse: El gran desafío de la informática ambiental"</p>
+<header class="hero-obsolescencia">
+  <h1 style="color: white; margin: 0; font-size: 2.8em;">🕰️ Obsolescencia Programada</h1>
+  <p style="opacity: 0.9; font-size: 1.2em;">Comprendiendo el ciclo de vida de la tecnología moderna</p>
+</header>
+
+## 📖 ¿Qué es exactamente?
+
+<div class="bloque-texto">
+La <strong>obsolescencia programada</strong> es la planificación del final de la vida útil de un producto. Durante su diseño, los fabricantes establecen un tiempo aproximado tras el cual el producto dejará de funcionar o se volverá inservible. 
 </div>
 
-<div class="tarjeta-info">
-  <h3>📌 Definición del Concepto</h3>
-  La <strong>obsolescencia programada</strong> es la planificación del fin de la vida útil de un producto. Durante su diseño, los fabricantes establecen un tiempo tras el cual el producto dejará de funcionar o se volverá inservible para forzar el consumo.
-</div>
-
-## Objetivos de la Industria
-El objetivo principal es incentivar la compra continua. Al acortar el ciclo de vida, las empresas aseguran:
-* 📈 **Aumento de beneficios** mediante ventas recurrentes.
-* 🔄 **Rotación de stock** constante.
-* 🔒 **Dependencia** del ecosistema de la marca.
+Esto ocurre frecuentemente por:
+* 🛠️ **Falta de repuestos:** Piezas imposibles de encontrar.
+* 🔋 **Componentes limitados:** Baterías o chips diseñados para degradarse.
 
 ---
 
-## Galería de Impacto
-*(Asegúrate de subir las imágenes a tu carpeta o usar URLs válidas)*
+## 💰 El Objetivo Económico
 
-<div class="grid-imagenes">
-  <img src="tu-imagen1.jpg" class="img-efecto" alt="Residuos electrónicos">
-  <img src="tu-imagen2.jpg" class="img-efecto" alt="Microchips">
-  <img src="tu-imagen3.jpg" class="img-efecto" alt="Vertedero tecnológico">
-  <img src="tu-imagen4.jpg" class="img-efecto" alt="Reparación">
-</div>
+El motor principal de esta práctica es **aumentar las ventas**. Al obligar a los consumidores a sustituir los productos con mayor frecuencia, las empresas obtienen beneficios constantes incentivando la **compra continua**.
+
+
 
 ---
 
-## Consecuencias Críticas
+## ⚠️ Consecuencias Críticas
 
-| Área | Impacto Negativo | Gravedad |
-|:---|:---|:---:|
-| **Medio Ambiente** | Generación masiva de basura electrónica (e-waste). | 🔴 Alta |
-| **Economía** | Gasto innecesario y constante para el usuario. | 🟠 Media |
-| **Recursos** | Agotamiento de materiales como el Litio o Coltán. | 🔴 Crítica |
+Esta estrategia no solo afecta a nuestro bolsillo, sino que daña gravemente al planeta:
 
----
-
-## ¿Dónde la encontramos?
-
-<div class="badge-tech">Teléfonos Móviles</div> 
-<div class="badge-tech">Impresoras</div> 
-<div class="badge-tech">Electrodomésticos</div> 
-<div class="badge-tech">Software Actualizable</div>
-
----
-
-## Referencias y Autores
-* **Autor:** Sergio - Informática Ambiental
-* **Fecha:** Marzo 2026
-* **Repositorio:** [GitHub - Proyecto Sevilla 25](https://github.com/manurg97/informatica-ambiental)
-
-</div>
+<div class="contenedor-tarjetas">
+  <div class="tarjeta-impacto">
