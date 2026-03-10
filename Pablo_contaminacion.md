@@ -45,6 +45,7 @@ Este sistema hace que la página sea más fácil de navegar y más interactiva d
 </div>
 
 </div>
+
 ---
 #  ¿Qué es la contaminación ambiental?
 La **contaminación ambiental** es la presencia de sustancias o elementos dañinos en el entorno que afectan negativamente a la naturaleza y a los seres vivos.
