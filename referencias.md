@@ -64,8 +64,8 @@
 <div style="
   width: 100%;
   text-align: center;
-  margin-top: 40px;
-  padding-top: 20px;
+  margin-top: 60px;
+  padding: 25px 0;
   border-top: 1px solid #eee;
 ">
 
@@ -75,6 +75,11 @@
        color:#2ea44f; 
        font-weight:bold; 
        font-size:1.2em;
+     ">
+     🏠 Volver al Inicio
+  </a>
+
+</div>
      ">
      🏠 Volver al Inicio
   </a>
