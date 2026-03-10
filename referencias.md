@@ -65,8 +65,8 @@
 <div style="
   width: 100%;
   text-align: center;
-  margin-top: 55px;   /* espacio entre la tabla y el botón */
-  padding-bottom: 20px;
+  margin-top: 80px;   /* espacio grande entre tabla y botón */
+  padding-bottom: 40px; /* espacio final para que quede abajo */
 ">
 
   <a href="index.html" 
@@ -74,7 +74,7 @@
        text-decoration:none; 
        color:#2ea44f; 
        font-weight:bold; 
-       font-size:1.2em;
+       font-size:1.3em;
      ">
      🏠 Volver al Inicio
   </a>
