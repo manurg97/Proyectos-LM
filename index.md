@@ -84,7 +84,7 @@ title: Inicio - Informática Ambiental
 <div class="main-container">
 
   <div class="hero-section">
-    <h1 style="color: white; margin: 0; font-size: 2.8em;">🌍 Informática y Medio Ambiente</h1>
+    <h1 style="color: white; margin: 0; font-size: 2.8em;">Informática y Medio Ambiente</h1>
     <p style="color: white;font-size: 1.2em; opacity: 0.9; margin-top: 15px;">Explorando el impacto tecnológico en nuestro ecosistema</p>
   </div>
 
@@ -124,7 +124,7 @@ title: Inicio - Informática Ambiental
 
   <div class="footer-info">
     "La tecnología debe ser una herramienta para sanar el planeta, no para destruirlo."
-    <br><strong>Proyecto Sevilla 25 - 2026</strong>
+    <br><strong>Proyecto Informática-ambiental</strong>
   </div>
 
 </div>
