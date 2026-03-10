@@ -107,6 +107,13 @@ title: Obsolescencia Programada - Sergio
 
 En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel Phoebus**. Su objetivo: reducir la duración de las bombillas de **2.500 horas a solo 1.000**. Este fue el nacimiento oficial de la obsolescencia programada para asegurar ventas recurrentes.
 
+<div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
+  <img src="obsolescencia.jpg" class="img-cartoon" alt="Documental sobre obsolescencia programada">
+  <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">
+    Cartel Phoebus.
+  </p>
+</div>
+
 ---
 
 ## 🛠️ 3. Tipos y Funcionamiento
@@ -132,7 +139,7 @@ En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel
 
 <div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
   <img src="4.webp" class="img-cartoon" alt="Ilustración del Derecho a Reparar frente al Consumo Forzado">
-  <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">Consumo vs. Derecho a Reparar: Un dilema actual.</p>
+  <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">Consumo vs Derecho a Reparar.</p>
 </div>
 
 ---
