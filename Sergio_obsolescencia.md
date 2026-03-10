@@ -146,7 +146,16 @@ En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel
 
 ## 🌍 4. El Impacto en nuestro Planeta
 
-Cada vez que renovamos un dispositivo prematuramente, el medio ambiente sufre las consecuencias. Aquí tienes los datos clave:
+<div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
+  <img src="consecuencias-1" class="img-cartoon" alt="Consecuencias de la obsolescencia programada">
+  <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">
+    Consecuencias de la obsolescencia programada: producción, consumo, gastos y residuos.
+  </p>
+</div>
+
+
+
+Cada vez que renovamos un dispositivo prematuramente, el medio ambiente sufre las consecuencias:
 
 <table class="tabla-bonita">
   <thead>
@@ -165,7 +174,7 @@ Cada vez que renovamos un dispositivo prematuramente, el medio ambiente sufre la
       <td>Fabricar un móvil consume el 80% de toda la energía que usará en su vida.</td>
     </tr>
     <tr>
-      <td><strong>Residuos (E-Waste)</strong></td>
+      <td><strong>Residuos</strong></td>
       <td>Millones de toneladas de metales pesados contaminan suelos y aguas anualmente.</td>
     </tr>
   </tbody>
