@@ -106,7 +106,7 @@
 
 ---
 
-## 📜 2. Un poco de historia: El Cartel Phoebus
+## 2. Un poco de historia: El Cartel Phoebus
 
 En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel Phoebus**. Su objetivo: reducir la duración de las bombillas de **2.500 horas a solo 1.000**. Este fue el nacimiento oficial de la obsolescencia programada para asegurar ventas recurrentes.
 
@@ -119,22 +119,22 @@ En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel
 
 ---
 
-## 🛠️ 3. Tipos y Funcionamiento
+## 3. Tipos y Funcionamiento
 
 <div class="grid-visual">
 
   <div class="card-premium border-blue">
-    <div class="card-title">💻 Obsolescencia de Software</div>
+    <div class="card-title">Obsolescencia de Software</div>
     <p>Actualizaciones que vuelven lentos los dispositivos o apps que dejan de ser compatibles con hardware que aún funciona perfectamente.</p>
   </div>
 
   <div class="card-premium border-orange">
-    <div class="card-title">🔌 Obsolescencia Técnica</div>
+    <div class="card-title">Obsolescencia Técnica</div>
     <p>Uso de materiales frágiles o componentes (como condensadores) diseñados para fallar tras un número determinado de ciclos de uso.</p>
   </div>
 
   <div class="card-premium border-purple">
-    <div class="card-title">🔧 Barreras de Reparación</div>
+    <div class="card-title">Barreras de Reparación</div>
     <p>Piezas pegadas y falta de repuestos oficiales. El objetivo es que reparar sea <strong>más caro</strong> que comprar un producto nuevo.</p>
   </div>
 
@@ -147,7 +147,7 @@ En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel
 
 ---
 
-## 🌍 4. El Impacto en nuestro Planeta
+## 4. El Impacto en nuestro Planeta
 
 <div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
   <img src="consecuencias-1.png" class="img-cartoon" alt="Consecuencias de la obsolescencia programada">
@@ -163,8 +163,8 @@ Cada vez que renovamos un dispositivo prematuramente, el medio ambiente sufre la
 <table class="tabla-bonita">
   <thead>
     <tr>
-      <th>💎 Recurso</th>
-      <th>🔥 Impacto de la Renovación</th>
+      <th> Recurso</th>
+      <th> Impacto de la Renovación</th>
     </tr>
   </thead>
   <tbody>
@@ -186,7 +186,7 @@ Cada vez que renovamos un dispositivo prematuramente, el medio ambiente sufre la
 
 ---
 
-## ✅ 5. ¿Hay soluciones?
+## 5. ¿Hay soluciones?
 
 Existen movimientos como el **"Right to Repair"** (Derecho a Reparar) y empresas que diseñan hardware modular para combatir esta tendencia. La informática ecológica es la clave para un futuro sostenible.
 
