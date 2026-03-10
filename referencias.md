@@ -1,36 +1,80 @@
 ## Referencias
 
 <style>
-  .ref-box {
+  .tabla-ref-cool {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 1em;
+    border-radius: 12px;
+    overflow: hidden;
     background: #ffffff;
-    padding: 25px;
-    border-radius: 14px;
-    border: 3px solid transparent;
-    background-image: linear-gradient(#fff, #fff), 
-                      linear-gradient(90deg, #ff7f50, #ff1493);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   }
 
-  .ref-box a {
+  .tabla-ref-cool thead tr {
+    background: linear-gradient(90deg, #ff7f50, #ff1493);
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .tabla-ref-cool th, .tabla-ref-cool td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  .tabla-ref-cool tbody tr:nth-child(even) {
+    background: #fff7fb;
+  }
+
+  .tabla-ref-cool tbody tr:hover {
+    background: #ffe3f1;
+    transition: 0.3s ease;
+  }
+
+  .tabla-ref-cool a {
     color: #ff1493;
     font-weight: bold;
     text-decoration: none;
   }
 
-  .ref-box a:hover {
+  .tabla-ref-cool a:hover {
     text-decoration: underline;
   }
 </style>
 
-<div class="ref-box">
-  <h2 style="margin-top:0;">Referencias</h2>
-
-  <p><a href="https://www.ibm.com/es-es/think/topics/green-computing">IBM – Green Computing</a></p>
-  <p><a href="https://es.wikipedia.org/wiki/Obsolescencia_programada">Wikipedia – Obsolescencia Programada</a></p>
-  <p><a href="https://www.greenpeace.org">Greenpeace</a></p>
-  <p><a href="https://www.un.org">Naciones Unidas</a></p>
-  <p><a href="https://www.ecotic.es">ECOTIC</a></p>
-  <p><a href="https://www.chatgpt.com">ChatGPT</a></p>
-</div>
+<table class="tabla-ref-cool">
+  <thead>
+    <tr>
+      <th>Fuente</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IBM – Green Computing</td>
+      <td><a href="https://www.ibm.com/es-es/think/topics/green-computing">Visitar</a></td>
+    </tr>
+    <tr>
+      <td>Wikipedia – Obsolescencia Programada</td>
+      <td><a href="https://es.wikipedia.org/wiki/Obsolescencia_programada">Visitar</a></td>
+    </tr>
+    <tr>
+      <td>Greenpeace</td>
+      <td><a href="https://www.greenpeace.org">Visitar</a></td>
+    </tr>
+    <tr>
+      <td>Naciones Unidas</td>
+      <td><a href="https://www.un.org">Visitar</a></td>
+    </tr>
+    <tr>
+      <td>ECOTIC</td>
+      <td><a href="https://www.ecotic.es">Visitar</a></td>
+    </tr>
+    <tr>
+      <td>ChatGPT</td>
+      <td><a href="https://www.chatgpt.com">Visitar</a></td>
+    </tr>
+  </tbody>
+</table>
