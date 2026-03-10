@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introducción
+title: Residuos Informáticos
 ---
 
 # Introducción
