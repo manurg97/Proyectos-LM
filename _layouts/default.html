@@ -60,15 +60,15 @@
             padding: 12px 15px;
             border-radius: 10px;
             transition: all 0.3s ease;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 0.95rem;
         }
 
-        nav ul li a:hover {
-            background: rgba(255,255,255,0.05);
-            color: white;
-            transform: translateX(10px);
-        }
+        /* Colores en el índice según el autor */
+        .nav-pablo:hover { color: var(--pablo) !important; background: rgba(56, 189, 248, 0.1); }
+        .nav-manuel:hover { color: var(--manuel) !important; background: rgba(74, 222, 128, 0.1); }
+        .nav-sergio:hover { color: var(--sergio) !important; background: rgba(192, 132, 252, 0.1); }
+        .nav-ref:hover { color: white !important; background: rgba(255, 255, 255, 0.05); }
 
         /* --- PANEL DERECHO (LEYENDA) --- */
         aside {
@@ -81,7 +81,6 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
-            background: linear-gradient(to left, rgba(15, 23, 42, 0.8), transparent);
         }
 
         .author-card {
@@ -90,39 +89,22 @@
             border-radius: 16px;
             border: 1px solid rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
-            transition: all 0.4s ease;
             display: flex;
             flex-direction: column;
-            align-items: flex-end; /* Alineado a la derecha */
+            align-items: flex-end;
         }
 
-        .author-card:hover {
-            transform: scale(1.05);
-            border-color: rgba(255, 255, 255, 0.2);
-            background: rgba(30, 41, 59, 0.8);
-        }
+        .author-name { font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+        .author-role { font-size: 0.75rem; opacity: 0.6; color: white; }
 
-        .author-name {
-            font-weight: 700;
-            font-size: 0.9rem;
-            margin-bottom: 4px;
-        }
-
-        .author-role {
-            font-size: 0.75rem;
-            opacity: 0.6;
-            color: white;
-        }
-
-        /* Colores por autor */
         .card-pablo { border-right: 4px solid var(--pablo); color: var(--pablo); }
         .card-manuel { border-right: 4px solid var(--manuel); color: var(--manuel); }
         .card-sergio { border-right: 4px solid var(--sergio); color: var(--sergio); }
 
         /* --- CONTENIDO CENTRAL --- */
         main {
-            margin-left: 260px; /* Espacio para nav */
-            margin-right: 240px; /* Espacio para aside */
+            margin-left: 260px;
+            margin-right: 240px;
             flex-grow: 1;
             display: flex;
             justify-content: center;
@@ -139,16 +121,18 @@
             min-height: 80vh;
         }
 
-        .content-card h1 { color: var(--bg-dark); border-bottom: 2px solid #f1f5f9; padding-bottom: 15px; }
+        /* Títulos dinámicos según el autor de la página */
+        .title-pablo { color: var(--pablo); border-bottom: 3px solid var(--pablo); padding-bottom: 10px; }
+        .title-manuel { color: var(--manuel); border-bottom: 3px solid var(--manuel); padding-bottom: 10px; }
+        .title-sergio { color: var(--sergio); border-bottom: 3px solid var(--sergio); padding-bottom: 10px; }
+
         .content-card p { line-height: 1.8; color: #475569; font-size: 1.1rem; }
 
-        /* Ajuste para tablets/móviles */
         @media (max-width: 1100px) {
-            aside { position: relative; width: 100%; height: auto; flex-direction: row; justify-content: center; padding: 20px; background: none; order: 3; }
-            nav { width: 100%; height: auto; position: relative; order: 1; }
-            main { margin: 0; order: 2; padding: 20px; }
             body { flex-direction: column; }
-            .author-card { align-items: center; border-right: none; border-bottom: 4px solid; }
+            nav, aside { width: 100%; height: auto; position: relative; }
+            main { margin: 0; padding: 20px; }
+            aside { flex-direction: row; justify-content: center; background: none; }
         }
     </style>
 </head>
@@ -157,26 +141,28 @@
     <nav>
         <h1>ECO-TECH</h1>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Pablo_contaminacion.html">Contaminación</a></li>
-            <li><a href="Manuel_residuos.html">Residuos</a></li>
-            <li><a href="Sergio_obsolescencia.html">Obsolescencia</a></li>
-            <li><a href="Sergio_informatica.html">Informática Verde</a></li>
-            <li><a href="referencias.html">Referencias</a></li>
+            <li><a href="index.html" class="nav-ref">Inicio</a></li>
+            <li><a href="Pablo_contaminacion.html" class="nav-pablo">Contaminación</a></li>
+            <li><a href="Manuel_residuos.html" class="nav-manuel">Residuos</a></li>
+            <li><a href="Sergio_obsolescencia.html" class="nav-sergio">Obsolescencia</a></li>
+            <li><a href="Sergio_informatica.html" class="nav-sergio">Info. Ecológica</a></li>
+            <li><a href="referencias.html" class="nav-ref">Referencias</a></li>
         </ul>
     </nav>
 
     <main>
         <article class="content-card">
-            <h1>Tecnología y Medio Ambiente</h1>
-            <p>
-                Bienvenido al portal de <strong>Informática Ambiental</strong>. Aquí analizamos cómo la era digital impacta nuestro entorno natural y qué soluciones podemos implementar para un futuro sostenible.
-            </p>
-            <p>
-                Desde la huella de carbono de los grandes servidores hasta la gestión de metales pesados en dispositivos desechados, la responsabilidad del sector tecnológico es hoy más grande que nunca.
-            </p>
-            <div style="margin-top: 30px; padding: 20px; background: #f1f5f9; border-radius: 12px; font-size: 0.95rem; color: #64748b;">
-                <strong>Nota:</strong> Usa el menú lateral izquierdo para navegar por los temas y observa a la derecha los autores responsables de cada sección.
+            <h1 class="title-pablo">¿Qué es la contaminación ambiental?</h1>
+            
+            <p>La contaminación ambiental digital se refiere al impacto negativo que el desarrollo, uso y desecho de hardware y software tiene sobre el ecosistema.</p>
+            
+            
+
+            <h3>La Huella de Carbono Digital</h3>
+            <p>Aunque no la veamos, cada búsqueda en internet, cada correo enviado y cada video en streaming consume energía proveniente de centros de datos que, en su mayoría, aún dependen de combustibles fósiles.</p>
+            
+            <div style="background: rgba(56, 189, 248, 0.1); padding: 20px; border-radius: 12px; color: #0369a1;">
+                <strong>Dato clave:</strong> Se estima que el sector de las TICs es responsable de aproximadamente el 2-3% de las emisiones globales de CO2.
             </div>
         </article>
     </main>
@@ -184,15 +170,15 @@
     <aside>
         <div class="author-card card-pablo">
             <span class="author-name">Pablo</span>
-            <span class="author-role">Contaminación Digital</span>
+            <span class="author-role">Contaminación</span>
         </div>
         <div class="author-card card-manuel">
             <span class="author-name">Manuel</span>
-            <span class="author-role">Gestión de Residuos</span>
+            <span class="author-role">Residuos</span>
         </div>
         <div class="author-card card-sergio">
             <span class="author-name">Sergio</span>
-            <span class="author-role">Obsolescencia & Green IT</span>
+            <span class="author-role">Obsolescencia / Green IT</span>
         </div>
     </aside>
 
