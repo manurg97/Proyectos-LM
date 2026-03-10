@@ -6,7 +6,7 @@
 <!-- Barra lateral -->
 <div style="width:25%; background:#f2f2f2; padding:15px; border-radius:10px;">
 
-<h3>🌍 Navegación rápida</h3>
+<h3> Navegación rápida</h3>
 
 <ul>
 <li><a href="#contaminación-del-aire">Contaminación del aire</a></li>
@@ -18,7 +18,7 @@
 
 <hr>
 
-<h4>🔎 Más información</h4>
+<h4> Más información</h4>
 
 <ul>
 <li><a href="https://www.nationalgeographic.com/environment">Medio ambiente</a></li>
