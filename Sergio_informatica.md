@@ -253,9 +253,54 @@
 
 ---
 
-<!-- BOTÓN DE VOLVER AL INICIO -->
-<div style="text-align: center; margin-top: 40px;">
-  <a href="index.html" class="btn-inicio">Volver al Inicio</a>
-</div>
+<div style="
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 40px; 
+  padding-top: 20px; 
+  border-top: 1px solid #ddd;
+">
+
+  <div style="
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 40px; 
+  padding-top: 20px; 
+  border-top: 1px solid #ddd;
+">
+
+  <!-- Botón izquierda -->
+  <a href="index.html" 
+     style="
+       text-decoration:none; 
+       background:#28a745; 
+       color:white; 
+       padding:10px 20px; 
+       border-radius:8px; 
+       font-weight:bold;
+       box-shadow:0 4px 10px rgba(0,0,0,0.15);
+       transition:0.3s;
+     "
+     onmouseover="this.style.background='#218838'"
+     onmouseout="this.style.background='#28a745'">
+     ⬅ Volver al Inicio
+  </a>
+
+  <!-- Botón derecha -->
+  <a href="referencias.html" 
+     style="
+       text-decoration:none; 
+       background:#007bff; 
+       color:white; 
+       padding:10px 20px; 
+       border-radius:8px; 
+       font-weight:bold;
+       box-shadow:0 4px 10px rgba(0,0,0,0.15);
+       transition:0.3s;
+     "
+     onmouseover="this.style.background='#0069d9'"
+     onmouseout="this.style.background='#007bff'">
+     Referencias ➜
+  </a>
 
 </div>
