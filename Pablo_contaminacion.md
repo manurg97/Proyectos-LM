@@ -66,9 +66,7 @@ Se produce cuando residuos químicos o basura contaminan ríos, lagos y océanos
 
 ## 🌱 Contaminación del suelo
 
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Land_pollution.jpg" width="500">
-</p>
+![Contaminación del suelo](https://parquesalegres.org/wp-content/uploads/2018/02/foto_-_4_-.jpg)
 
 Ocurre cuando residuos sólidos o productos químicos se acumulan en la tierra.
 
