@@ -160,6 +160,19 @@
   </tbody>
 </table>
 
+<div style="text-align:center; margin: 25px 0;">
+  <img src="tecno-eco.webp" 
+       alt="Fabricación ecológica" 
+       style="
+         max-width: 100%;
+         border-radius: 12px;
+         box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+       ">
+  <p style="font-style: italic; color:#555; margin-top:10px;">
+    <strong>Procesos de fabricación más sostenibles.</strong>
+  </p>
+</div>
+
 ---
 
 ## 3. Qué pueden hacer las organizaciones
@@ -248,6 +261,19 @@
   <p>
     La informática ecológica es esencial para reducir el impacto ambiental del sector tecnológico. 
     Fabricantes, organizaciones y usuarios debemos colaborar para disminuir emisiones, ahorrar energía y fomentar la reutilización y el reciclaje.
+  </p>
+</div>
+
+<div style="text-align:center; margin: 25px 0;">
+  <img src="información-eco.jpg" 
+       alt="Fabricación ecológica" 
+       style="
+         max-width: 100%;
+         border-radius: 12px;
+         box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+       ">
+  <p style="font-style: italic; color:#555; margin-top:10px;">
+    <strong>Informática ecológica.</strong>
   </p>
 </div>
 
