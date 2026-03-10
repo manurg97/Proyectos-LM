@@ -112,6 +112,19 @@
   </p>
 </div>
 
+<div style="text-align:center; margin: 25px 0;">
+  <img src="informatica-eco.jpg" 
+       alt="Informática ecológica" 
+       style="
+         max-width: 100%;
+         border-radius: 12px;
+         box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+       ">
+  <p style="font-style: italic; color:#555; margin-top:10px;">
+    <strong>La informática ecológica busca reducir el impacto ambiental de la tecnología.</strong>
+  </p>
+</div>
+
 <div class="eco-card eco-blue" style="margin-top: 20px;">
   <div class="eco-title">Importancia Actual</div>
   <p>
@@ -253,6 +266,19 @@
   </tbody>
 </table>
 
+<div style="text-align:center; margin: 25px 0;">
+  <img src="reciclaje-cartuchos.webp" 
+       alt="Acciones individuales ecológicas" 
+       style="
+         max-width: 100%;
+         border-radius: 12px;
+         box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+       ">
+  <p style="font-style: italic; color:#555; margin-top:10px;">
+    <strong>Reciclaje y reutilización de cartuchos.</strong>
+  </p>
+</div>
+
 ---
 
 ## 5. Conclusión
@@ -276,6 +302,7 @@
     <strong>La sostenibilidad tecnológica.</strong>
   </p>
 </div>
+
 ---
 
 <div style="
