@@ -8,6 +8,7 @@ En la actualidad, el desarrollo tecnológico también tiene impacto en el medio 
 ---
 
 ## 🖼️ Imagen sobre contaminación
+![Central nuclear](https://content.nationalgeographic.com.es/medio/2023/09/15/central-nuclear-dukovany-republica-checa_5c5750af_230915184639_1280x853.jpg)
 
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Factory_pollution.jpg" width="600">
