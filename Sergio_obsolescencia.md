@@ -97,7 +97,7 @@
 ## 1. ¿Qué es exactamente?
 
 <div class="card-premium border-green">
-  <div class="card-title">📖 Definición Técnica</div>
+  <div class="card-title">Definición Técnica</div>
   <p class="card-text">
     Es el diseño de un producto con una <strong>vida útil limitada artificialmente</strong>. Los fabricantes calculan el momento exacto en el que el dispositivo debe fallar o volverse incompatible para forzar al consumidor a comprar la siguiente versión. No es un error de ingeniería, es una decisión de negocio.
   </p>
