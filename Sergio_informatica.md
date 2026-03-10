@@ -254,36 +254,12 @@
 ---
 
 <div style="
-  display: flex; 
-  justify-content: space-between; 
-  margin-top: 40px; 
-  padding-top: 20px; 
-  border-top: 1px solid #ddd;
-">
-
-  <div style="
-  display: flex; 
-  justify-content: space-between; 
-  margin-top: 40px; 
-  padding-top: 20px; 
-  border-top: 1px solid #ddd;
-">
-
-
-<div style="
-  display: flex; 
-  justify-content: space-between; 
-  margin-top: 40px; 
-  padding-top: 20px; 
-  border-top: 1px solid #eee;
-">
-
-<div style="
-  display: flex; 
-  justify-content: space-between; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 40px; 
-  padding-top: 20px; 
+  margin-top: 40px;
+  padding-top: 20px;
   border-top: 1px solid #eee;
 ">
 
@@ -300,3 +276,5 @@
   </a>
 
 </div>
+
+ 
