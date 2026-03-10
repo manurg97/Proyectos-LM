@@ -1,4 +1,4 @@
-# 🌍 Obsolescencia Programada: El Ciclo de lo Efímero
+# Obsolescencia Programada
 
 <p align="center">
   <img src="https://img.shields.io/badge/Tema-Informática%20Ambiental-green?style=for-the-badge" alt="Badge de curso">
@@ -7,11 +7,11 @@
 
 ---
 
-## 🔍 ¿Qué es realmente?
+## ¿Qué es realmente?
 La **obsolescencia programada** es la planificación o programación deliberada del fin de la vida útil de un producto. Durante la fase de diseño, los fabricantes calculan un tiempo de vida óptimo para que el producto falle o se vuelva inútil, forzando al usuario a una nueva compra.
 
 
-### 💡 Tipos de Obsolescencia
+### Tipos de Obsolescencia
 No toda la obsolescencia es igual. Podemos clasificarla en:
 
 * **Funcional:** El producto falla físicamente (un chip que deja de funcionar).
@@ -20,16 +20,16 @@ No toda la obsolescencia es igual. Podemos clasificarla en:
 
 ---
 
-## 🎯 El Objetivo del Modelo Lineal
-El motor de esta práctica es el **crecimiento económico perpetuo**. Las empresas buscan:
-1.  **Aumentar el flujo de ventas:** Ciclos de sustitución más cortos.
+## El Objetivo del Modelo Lineal
+El motor de esta práctica es el **crecimiento económico**. Las empresas buscan:
+1.  **Aumentar el flujo de ventas:** Los artículos se sustituyen más a menudo.
 2.  **Fidelización forzada:** Al controlar los repuestos y el soporte técnico.
 
 > "Un producto que no se desgasta es una tragedia para los negocios."
 
 ---
 
-## ⚠️ Consecuencias Globales
+## Consecuencias Globales
 Esta práctica tiene un impacto directo en la salud de nuestro planeta:
 
 | Impacto | Descripción |
@@ -41,7 +41,7 @@ Esta práctica tiene un impacto directo en la salud de nuestro planeta:
 
 ---
 
-## 📱 Aplicaciones Comunes
+## Aplicaciones Comunes
 Este fenómeno no es exclusivo de un solo sector, pero es crítico en:
 
 * **Dispositivos Móviles:** Baterías no extraíbles y fin de actualizaciones.
@@ -50,11 +50,11 @@ Este fenómeno no es exclusivo de un solo sector, pero es crítico en:
 
 ---
 
-## 🛠️ ¿Cómo combatirla?
+## ¿Cómo combatirla?
 Existen movimientos globales para frenar esta tendencia:
-* **Derecho a Reparar (Right to Repair):** Leyes que obligan a facilitar manuales y piezas.
+* **Derecho a Reparar:** Leyes que obligan a facilitar manuales y piezas.
 * **Economía Circular:** Diseñar productos que puedan ser reciclados o actualizados.
 * **Consumo Responsable:** Optar por marcas con sellos de durabilidad.
 
 ---
-*Documento creado para el repositorio de Informática Ambiental - 2026*
+
