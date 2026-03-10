@@ -60,7 +60,8 @@
       <td>Wikipedia – Obsolescencia Programada</td>
       <td><a href="https://es.wikipedia.org/wiki/Obsolescencia_programada">Visitar</a></td>
     </tr>
-   
+  </tbody>
+</table>
 
 <div style="
   width: 100%;
