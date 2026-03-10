@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Qué es la contaminación ambiental
+title: Qué es la contaminacion
 ---
 
 # 🌍 Qué es la contaminación ambiental
