@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Obsolescencia Programada - Sergio
@@ -39,7 +40,7 @@ title: Obsolescencia Programada - Sergio
     margin: 25px 0;
     font-size: 0.95em;
     border-radius: 10px;
-    overflow: hidden; /* Para que las esquinas salgan redondeadas */
+    overflow: hidden; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
   }
 
@@ -72,6 +73,15 @@ title: Obsolescencia Programada - Sergio
     align-items: center;
     gap: 10px;
   }
+  
+  /* --- ESTILO DE LA IMAGEN DE LA CARICATURA --- */
+  .img-cartoon {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    margin: 30px auto;
+    display: block;
+  }
 </style>
 
 <div markdown="1">
@@ -89,7 +99,6 @@ title: Obsolescencia Programada - Sergio
     Es el diseño de un producto con una <strong>vida útil limitada artificialmente</strong>. Los fabricantes calculan el momento exacto en el que el dispositivo debe fallar o volverse incompatible para forzar al consumidor a comprar la siguiente versión. No es un error de ingeniería, es una decisión de negocio.
   </p>
 </div>
-
 
 
 ---
@@ -121,6 +130,11 @@ En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel
 
 </div>
 
+<div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
+  <img src="reparacion_vs_consumo.png" class="img-cartoon" alt="Ilustración del Derecho a Reparar frente al Consumo Forzado">
+  <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">Consumo vs. Derecho a Reparar: Un dilema actual.</p>
+</div>
+
 ---
 
 ## 🌍 4. El Impacto en nuestro Planeta
@@ -149,7 +163,6 @@ Cada vez que renovamos un dispositivo prematuramente, el medio ambiente sufre la
     </tr>
   </tbody>
 </table>
-
 
 
 ---
