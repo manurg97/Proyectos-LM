@@ -131,7 +131,7 @@ En 1924, los principales fabricantes de bombillas del mundo formaron el **Cartel
 </div>
 
 <div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
-  <img src="reparacion_vs_consumo.png" class="img-cartoon" alt="Ilustración del Derecho a Reparar frente al Consumo Forzado">
+  <img src="4.webp" class="img-cartoon" alt="Ilustración del Derecho a Reparar frente al Consumo Forzado">
   <p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 10px;">Consumo vs. Derecho a Reparar: Un dilema actual.</p>
 </div>
 
