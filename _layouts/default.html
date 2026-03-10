@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informática-Ambiental</title>
+    <title>Informática Ambiental</title>
     <style>
         :root {
             --bg-dark: #0f172a; /* Fondo principal oscuro */
@@ -77,26 +77,60 @@
         .link-manuel:hover { box-shadow: -4px 0 0 var(--manuel); }
         .link-sergio:hover { box-shadow: -4px 0 0 var(--sergio); }
 
-        /* --- LEYENDA SIMPLE --- */
+        /* --- NUEVA LEYENDA ESTILO BADGE --- */
         .leyenda-simple {
             margin-top: auto;
             padding-top: 20px;
             border-top: 1px solid rgba(255,255,255,0.1);
         }
 
-        .autor {
-            display: flex;
-            align-items: center;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-bottom: 8px;
+        .status-title {
+            color: white;
+            font-size: 0.7rem;
+            letter-spacing: 1.5px;
+            margin-bottom: 15px;
+            opacity: 0.5;
+            text-transform: uppercase;
         }
 
-        .dot {
-            width: 8px;
-            height: 8px;
+        .status-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
             border-radius: 50%;
-            margin-right: 12px;
+            margin-right: 10px;
+        }
+
+        /* Colores específicos para cada autor */
+        .badge-pablo { color: var(--pablo); border-color: rgba(56, 189, 248, 0.2); }
+        .badge-pablo .status-dot { background-color: var(--pablo); box-shadow: 0 0 8px var(--pablo); }
+
+        .badge-manuel { color: var(--manuel); border-color: rgba(74, 222, 128, 0.2); }
+        .badge-manuel .status-dot { background-color: var(--manuel); box-shadow: 0 0 8px var(--manuel); }
+
+        .badge-sergio { color: var(--sergio); border-color: rgba(192, 132, 252, 0.2); }
+        .badge-sergio .status-dot { background-color: var(--sergio); box-shadow: 0 0 8px var(--sergio); }
+
+        .status-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-2px);
         }
 
         /* --- CONTENEDOR CENTRAL --- */
@@ -119,9 +153,17 @@
             min-height: 80vh;
         }
 
-        /* Estilos de texto dentro de las páginas */
+        /* Estilos de texto */
         .content-card h1 { margin-top: 0; color: var(--bg-dark); border-bottom: 2px solid #f1f5f9; padding-bottom: 15px; }
+        .content-card h3 { color: var(--sidebar-bg); margin-top: 25px; }
         .content-card p { line-height: 1.8; color: #475569; font-size: 1.1rem; }
+        
+        /* Media Query para Móviles */
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            nav { width: 100%; height: auto; position: relative; padding: 20px; }
+            main { margin-left: 0; padding: 20px; }
+        }
     </style>
 </head>
 <body>
@@ -138,15 +180,46 @@
         </ul>
 
         <div class="leyenda-simple">
-            <div class="autor"><span class="dot" style="background: var(--pablo);"></span> Pablo</div>
-            <div class="autor"><span class="dot" style="background: var(--sergio);"></span> Sergio</div>
-            <div class="autor"><span class="dot" style="background: var(--manuel);"></span> Manuel</div>
+            <p class="status-title">Contribuyentes</p>
+            <div class="status-group">
+                <div class="status-item badge-pablo">
+                    <span class="status-dot"></span> Pablo
+                </div>
+                <div class="status-item badge-manuel">
+                    <span class="status-dot"></span> Manuel
+                </div>
+                <div class="status-item badge-sergio">
+                    <span class="status-dot"></span> Sergio
+                </div>
+            </div>
         </div>
     </nav>
 
     <main>
         <article class="content-card">
-            {{ content }}
+            <h1>Tecnología y Medio Ambiente: Un Desafío Global</h1>
+
+            <p>
+                Bienvenido al portal de <strong>Informática Ambiental</strong>. En un mundo cada vez más digitalizado, la relación entre el avance tecnológico y la salud de nuestro planeta se ha vuelto crítica. Aunque la informática nos ofrece herramientas para optimizar recursos, su producción y desecho generan impactos que no podemos ignorar.
+            </p>
+
+            <div style="background: #f8fafc; padding: 25px; border-radius: 15px; border-left: 5px solid var(--pablo); margin: 30px 0;">
+                <h3 style="margin-top: 0;">¿Qué exploraremos aquí?</h3>
+                <ul style="color: #475569; line-height: 1.6; margin-bottom: 0;">
+                    <li><strong>Contaminación:</strong> El costo energético de los centros de datos y la huella de carbono digital.</li>
+                    <li><strong>Residuos Electrónicos:</strong> El ciclo de vida de los componentes y el reto del reciclaje de hardware.</li>
+                    <li><strong>Obsolescencia Programada:</strong> La estrategia industrial tras la corta vida útil de nuestros dispositivos.</li>
+                    <li><strong>Green IT:</strong> Soluciones y buenas prácticas para una informática más sostenible y consciente.</li>
+                </ul>
+            </div>
+
+            <p>
+                Navega a través del menú lateral para conocer a fondo cada una de estas problemáticas y descubrir cómo, desde el desarrollo y el uso responsable, podemos mitigar el impacto ambiental de la era digital.
+            </p>
+
+            <p style="text-align: center; color: var(--text-muted); font-style: italic; margin-top: 40px; border-top: 1px solid #f1f5f9; padding-top: 20px;">
+                "La tecnología es un siervo útil, pero un amo peligroso." — Christian Lous Lange.
+            </p>
         </article>
     </main>
 
