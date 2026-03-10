@@ -4,249 +4,250 @@ title: Residuos Informáticos
 ---
 
 
----
-layout: default
-title: Residuos Informáticos - Visión Innovadora
----
-
 <style>
-  /* --- VARIABLES DE COLOR INNOVADORAS --- */
+  /* --- PALETA DE COLORES LUX --- */
   :root {
-    --neon-cyan: #00f2ff;
-    --neon-lime: #adff2f;
-    --dark-bg: #0a192f;
-    --glass-bg: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-soft: #f0f2f5;
+    --accent-purple: #6c5ce7;
+    --accent-gold: #ffb8b8; /* Tono coral suave */
+    --text-main: #2d3436;
+    --shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   }
 
-  .main-content-innovador {
-    background-color: var(--dark-bg);
-    color: #e6f1ff;
-    padding: 40px;
-    border-radius: 20px;
-    font-family: 'Inter', sans-serif;
-    overflow: hidden;
-    position: relative;
+  .contenedor-premium {
+    background-color: var(--bg-soft);
+    padding: 50px;
+    border-radius: 40px;
+    color: var(--text-main);
+    font-family: 'Segoe UI', Roboto, sans-serif;
   }
 
-  /* --- TÍTULO CON GRADIENTE DINÁMICO --- */
-  .titulo-glow {
-    font-size: 2.8em;
-    font-weight: 800;
-    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-lime));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-  }
-
-  /* --- TARJETAS DE CRISTAL (GLASSMORPHISM) --- */
-  .contenedor-glass {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    margin: 40px 0;
-  }
-
-  .card-glass {
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    padding: 25px;
-    border-radius: 15px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    position: relative;
-  }
-
-  .card-glass:hover {
-    background: rgba(0, 242, 255, 0.05);
-    border-color: var(--neon-cyan);
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 10px 30px rgba(0, 242, 255, 0.1);
-  }
-
-  .card-glass h3 {
-    color: var(--neon-cyan);
-    margin-top: 0;
-    font-size: 1.2em;
-  }
-
-  /* --- SECCIÓN DE TOXICIDAD ESTILO "SCANNER" --- */
-  .scanner-box {
-    border-left: 2px solid var(--neon-lime);
-    padding-left: 20px;
-    margin: 30px 0;
-    background: linear-gradient(90deg, rgba(173, 255, 47, 0.05) 0%, transparent 100%);
-  }
-
-  /* --- TABLA FUTURISTA --- */
-  .tabla-futuro {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 10px;
-  }
-
-  .tabla-futuro th {
-    color: var(--neon-lime);
-    text-transform: uppercase;
-    font-size: 0.8em;
-    letter-spacing: 2px;
-    padding: 15px;
-    text-align: left;
-  }
-
-  .tabla-futuro td {
-    background: rgba(255, 255, 255, 0.02);
-    padding: 15px;
-    border-top: 1px solid var(--glass-border);
-    border-bottom: 1px solid var(--glass-border);
-  }
-
-  .tabla-futuro td:first-child { border-radius: 10px 0 0 10px; border-left: 1px solid var(--glass-border); color: var(--neon-cyan); font-weight: bold; }
-  .tabla-futuro td:last-child { border-radius: 0 10px 10px 0; border-right: 1px solid var(--glass-border); }
-
-  /* --- BLOQUE DE MINERÍA URBANA --- */
-  .mineria-urban-block {
-    background: #000;
-    border-radius: 20px;
-    padding: 40px;
-    border: 1px dashed var(--neon-cyan);
+  /* --- CABECERA ESTILO REVISTA --- */
+  .header-residuos {
     text-align: center;
-    margin: 50px 0;
+    margin-bottom: 60px;
   }
 
-  .dato-impacto {
-    font-size: 3em;
-    font-weight: bold;
-    color: var(--neon-lime);
+  .header-residuos h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+    color: var(--accent-purple);
+    margin: 0;
+    letter-spacing: -2px;
+  }
+
+  .subtitulo-badge {
+    display: inline-block;
+    background: var(--accent-purple);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  /* --- SECCIONES NEUMÓRFICAS --- */
+  .seccion-card {
+    background: var(--bg-soft);
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  /* --- GRID DE CATEGORÍAS TIPO APP --- */
+  .app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .app-item {
+    background: #f0f2f5;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 6px 6px 12px #d1d9e6, -6px -6px 12px #ffffff;
+    transition: 0.3s;
+    border: 1px solid transparent;
+  }
+
+  .app-item:hover {
+    box-shadow: inset 6px 6px 12px #d1d9e6, inset -6px -6px 12px #ffffff;
+    transform: scale(0.98);
+  }
+
+  .app-item i {
+    font-size: 2em;
     display: block;
+    margin-bottom: 10px;
   }
 
-  /* --- BOTONES NAVEGACIÓN --- */
-  .nav-footer-innovador {
+  /* --- LISTA DE TOXICIDAD CON INDICADORES --- */
+  .tox-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tox-item {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px dashed #b2bec3;
   }
 
-  .btn-cyber {
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
+  .nivel-alerta {
+    height: 8px;
+    width: 100px;
+    background: #dfe6e9;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .alerta-fill {
+    height: 100%;
+    background: var(--accent-purple);
+  }
+
+  /* --- BANNER DE MINERÍA (ESTILO DARK MODE) --- */
+  .banner-mineria {
+    background: #2d3436;
+    color: white;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 0;
+  }
+
+  .circle-stat {
+    width: 120px;
+    height: 120px;
+    border: 8px solid var(--accent-purple);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.3s;
-    border: 1px solid var(--neon-cyan);
+    flex-shrink: 0;
   }
 
-  .btn-cyber.prev { color: #fff; border-color: #444; }
-  .btn-cyber.next { 
-    background: var(--neon-cyan); 
-    color: var(--dark-bg) !important; 
-    box-shadow: 0 0 15px var(--neon-cyan);
+  /* --- NAVEGACIÓN MINIMALISTA --- */
+  .nav-minimal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
   }
 
-  .btn-cyber:hover {
-    transform: skewX(-10deg);
-    filter: brightness(1.2);
+  .btn-flat {
+    text-decoration: none;
+    color: var(--accent-purple);
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+    transition: 0.2s;
+  }
+
+  .btn-flat:active {
+    box-shadow: inset 4px 4px 10px #bebebe, inset -4px -4px 10px #ffffff;
+  }
+
+  .btn-primary {
+    background: var(--accent-purple);
+    color: white;
   }
 </style>
 
-<div class="main-content-innovador">
+<div class="contenedor-premium">
 
-  <header class="retraso-1">
-    <h1 class="titulo-glow">Hardware Inmortal</h1>
-    <p style="font-size: 1.2em; color: #8892b0;">
-      Más allá de la pantalla, existe una crisis de silicio. El <span style="color: var(--neon-lime);">e-waste</span> no es basura, es un error de diseño global.
+  <header class="header-residuos retraso-1">
+    <h1>E-Waste Crisis</h1>
+    <span class="subtitulo-badge">Informe de Sostenibilidad 2024</span>
+    <p style="margin-top: 25px; font-size: 1.1em; max-width: 600px; margin-left: auto; margin-right: auto;">
+      La tecnología avanza, pero los materiales permanecen. Estamos ante el residuo sólido urbano que más rápido crece en la historia de la humanidad.
     </p>
   </header>
 
-  <section class="retraso-2">
-    <div class="scanner-box">
-      <h2>01 // CLASIFICACIÓN DE RESIDUOS</h2>
-    </div>
+  <div class="seccion-card retraso-2">
+    <h2 style="color: var(--accent-purple);">01. Clasificación RAEE</h2>
+    <p>Identificamos cuatro ecosistemas críticos de desecho informático que requieren tratamiento diferenciado:</p>
     
-    <div class="contenedor-glass">
-      <div class="card-glass">
-        <h3>NÚCLEOS</h3>
-        <p>CPUs, servidores y placas base. El corazón del problema químico.</p>
+    <div class="app-grid">
+      <div class="app-item">
+        <span>💻</span>
+        <strong>Sistemas</strong>
+        <small>CPUs y Laptops</small>
       </div>
-      <div class="card-glass">
-        <h3>ÓPTICOS</h3>
-        <p>Monitores, paneles OLED y sensores. Contienen gases raros y fósforo.</p>
+      <div class="app-item">
+        <span>📱</span>
+        <strong>Mobile</strong>
+        <small>Smartphones</small>
       </div>
-      <div class="card-glass">
-        <h3>ENERGÍA</h3>
-        <p>Baterías de Litio y Cobalto. Bombas de tiempo químicas si no se tratan.</p>
+      <div class="app-item">
+        <span>🔋</span>
+        <strong>Celdas</strong>
+        <small>Baterías Li-ion</small>
       </div>
-      <div class="card-glass">
-        <h3>NODOS</h3>
-        <p>Periféricos, routers y cableado. El mayor volumen de plástico y cobre.</p>
+      <div class="app-item">
+        <span>📡</span>
+        <strong>Nodos</strong>
+        <small>Routers y Redes</small>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="retraso-3">
-    <div class="scanner-box">
-      <h2>02 // ANÁLISIS DE TOXICIDAD</h2>
-    </div>
-
-    <table class="tabla-futuro">
-      <thead>
-        <tr>
-          <th>Elemento</th>
-          <th>Origen</th>
-          <th>Impacto Bio</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>MERCURIO</td>
-          <td>Pantallas Planas</td>
-          <td>Neurotóxico persistente.</td>
-        </tr>
-        <tr>
-          <td>CADMIO</td>
-          <td>Semiconductores</td>
-          <td>Fallo renal agudo.</td>
-        </tr>
-        <tr>
-          <td>PLOMO</td>
-          <td>Micro-soldaduras</td>
-          <td>Deterioro cognitivo.</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <section class="mineria-urban-block">
-    <span class="dato-impacto">+800%</span>
-    <h3 style="color: white;">Más eficiente que una mina real</h3>
-    <p>Extraer oro de placas de circuito desechadas es 8 veces menos contaminante que la minería de roca tradicional.</p>
+  <div class="seccion-card retraso-3">
+    <h2 style="color: var(--accent-purple);">02. Componentes Críticos</h2>
+    <p>Análisis de los elementos químicos presentes en el hardware convencional y su impacto biológico:</p>
     
-  </section>
+    
 
-  <section>
-    <div class="scanner-box">
-      <h2>03 // PROTOCOLO DE MITIGACIÓN</h2>
-    </div>
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-      <div class="card-glass">
-        <strong style="color: var(--neon-lime);">SOFT-RESCUE</strong>
-        <p>Alarga la vida útil usando Software Libre y sistemas ligeros para evitar el descarte prematuro.</p>
+    <div class="tox-list">
+      <div class="tox-item">
+        <span><strong>Mercurio</strong> (Pantallas LCD)</span>
+        <div class="nivel-alerta"><div class="alerta-fill" style="width: 90%;"></div></div>
       </div>
-      <div class="card-glass">
-        <strong style="color: var(--neon-lime);">HARD-RECYCLE</strong>
-        <p>Entrega de equipos en celdas RAEE certificadas para recuperación de tierras raras.</p>
+      <div class="tox-item">
+        <span><strong>Plomo</strong> (Soldaduras)</span>
+        <div class="nivel-alerta"><div class="alerta-fill" style="width: 75%;"></div></div>
+      </div>
+      <div class="tox-item">
+        <span><strong>Cadmio</strong> (Circuitos)</span>
+        <div class="nivel-alerta"><div class="alerta-fill" style="width: 85%;"></div></div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <footer class="nav-footer-innovador">
-    <a href="contaminacion.html" class="btn-cyber prev">Atrás</a>
-    <a href="obsolescencia.html" class="btn-cyber next">Siguiente fase</a>
+  <div class="banner-mineria">
+    <div class="circle-stat">80%</div>
+    <div>
+      <h3 style="margin: 0; color: var(--accent-purple);">Minería Urbana</h3>
+      <p style="margin: 5px 0 0; opacity: 0.8;">
+        El 80% de un ordenador es reciclable. Recuperar metales preciosos de placas base reduce la necesidad de excavaciones mineras en un 60%.
+      </p>
+    </div>
+  </div>
+
+  <div class="seccion-card">
+    <h2 style="color: var(--accent-purple);">03. Hoja de Ruta Ética</h2>
+    <ul style="line-height: 2;">
+      <li><strong>Reparación:</strong> Priorizar el mantenimiento sobre la sustitución.</li>
+      <li><strong>Software:</strong> Usar SO eficientes para hardware de baja potencia.</li>
+      <li><strong>Gestión:</strong> Disposición final en centros RAEE certificados.</li>
+    </ul>
+  </div>
+
+  <footer class="nav-minimal">
+    <a href="contaminacion.html" class="btn-flat">← Anterior</a>
+    <a href="obsolescencia.html" class="btn-flat btn-primary">Siguiente Capítulo →</a>
   </footer>
 
 </div>
