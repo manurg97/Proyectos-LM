@@ -265,7 +265,7 @@
 </div>
 
 <div style="text-align:center; margin: 25px 0;">
-  <img src="información-eco.jpg" 
+  <img src="info_eco.jpg" 
        alt="Conclusión sobre informática ecológica" 
        style="
          max-width: 100%;
