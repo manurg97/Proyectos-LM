@@ -94,7 +94,7 @@
 
 ---
 
-## 🔍 1. ¿Qué es exactamente?
+## 1. ¿Qué es exactamente?
 
 <div class="card-premium border-green">
   <div class="card-title">📖 Definición Técnica</div>
