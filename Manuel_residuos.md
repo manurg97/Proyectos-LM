@@ -138,11 +138,10 @@ title: Residuos Informáticos
   <p class="card-text">
     Los <strong>Residuos de Aparatos Eléctricos y Electrónicos (RAEE)</strong> no son basura convencional. Son una mezcla compleja de materiales de alto valor y sustancias altamente peligrosas. Su gestión comienza desde el momento en que un dispositivo se vuelve inútil, ya sea por fallo técnico o por obsolescencia, y termina en plantas de tratamiento donde se intenta recuperar su valor residual.
   </p>
-  <div class="tarjeta-sergio" style="text-align: center; border: none; box-shadow: none;">
+</div>
+ <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
   <img src="residuos 1.webp" class="img-cartoon" alt="Ilustración hardware basura">
 </div>
-</div>
-
 ---
 
 ## Minería Urbana: El Tesoro en la Basura
@@ -154,11 +153,17 @@ A diferencia de la minería tradicional, la **minería urbana** se enfoca en rec
   <div class="card-premium border-mint">
     <div class="card-title">Metales Preciosos</div>
     <p>Un smartphone promedio contiene trazas de <strong>oro, plata y paladio</strong> en sus circuitos impresos. Su recuperación reduce la necesidad de explotaciones mineras destructivas.</p>
+     <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
+  <img src="residuos 2.webp" class="img-cartoon" alt="metales preciosos en moviles">
+</div>
   </div>
 
   <div class="card-premium border-lime">
     <div class="card-title">Tierras Raras</div>
     <p>Elementos como el neodimio (en imanes de discos duros) y el lantano son vitales pero escasos. El reciclaje es la única forma sostenible de mantener su suministro.</p>
+    <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
+  <img src="residuos 3.webp" class="img-cartoon" alt="tierras raras">
+</div>
   </div>
 
   <div class="card-premium border-earth">
