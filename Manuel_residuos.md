@@ -154,7 +154,7 @@ A diferencia de la minería tradicional, la **minería urbana** se enfoca en rec
     <div class="card-title">Metales Preciosos</div>
     <p>Un smartphone promedio contiene trazas de <strong>oro, plata y paladio</strong> en sus circuitos impresos. Su recuperación reduce la necesidad de explotaciones mineras destructivas.</p>
      <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 2.webp" class="img-cartoon" alt="metales preciosos en moviles">
+  <img src="residuos 2.jpg" class="img-cartoon" alt="metales preciosos en moviles">
 </div>
   </div>
 
@@ -162,7 +162,7 @@ A diferencia de la minería tradicional, la **minería urbana** se enfoca en rec
     <div class="card-title">Tierras Raras</div>
     <p>Elementos como el neodimio (en imanes de discos duros) y el lantano son vitales pero escasos. El reciclaje es la única forma sostenible de mantener su suministro.</p>
     <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 3.webp" class="img-cartoon" alt="tierras raras">
+  <img src="residuos 3.jpeg" class="img-cartoon" alt="tierras raras">
 </div>
   </div>
 
