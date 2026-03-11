@@ -249,11 +249,11 @@ Para combatir la crisis de los residuos informáticos, se están implementando p
 ## Conclusión: El Futuro de nuestra Huella Digital
 
 <div class="card-premium border-forest" style="background-color: #f1f8e9;">
-  <div class="card-title">🌱 Hacia una Tecnología Responsable</div>
+  <div class="card-title">Hacia una Tecnología Responsable</div>
   <p class="card-text">
     La gestión de los residuos informáticos no es solo un reto técnico, sino un <strong>imperativo ético</strong>. A medida que avanzamos hacia una sociedad cada vez más digitalizada, no podemos permitir que el progreso tecnológico se traduzca en la degradación sistemática de nuestro entorno natural. 
     <br><br>
-    Como hemos analizado, la solución requiere un enfoque tripartito:
+    Como hemos analizado, la solución requiere un enfoque de estos tres puntos:
   </p>
   <ul style="line-height: 1.8; color: #1b4332;">
     <li><strong>Las Empresas:</strong> Deben abandonar la obsolescencia programada y adoptar el ecodiseño como estándar.</li>
