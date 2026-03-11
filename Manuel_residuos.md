@@ -228,5 +228,24 @@ Para combatir la crisis de los residuos informáticos, se están implementando p
   <a href="obsolescencia.html" style="text-decoration:none; color:#2d6a4f; font-weight:bold;">⬅️ Obsolescencia Programada</a>
   <a href="ecologica.html" style="text-decoration:none; color:#2d6a4f; font-weight:bold;">Informática Ecológica ➜</a>
 </div>
+---
 
+## Conclusión: El Futuro de nuestra Huella Digital
+
+<div class="card-premium border-forest" style="background-color: #f1f8e9;">
+  <div class="card-title">🌱 Hacia una Tecnología Responsable</div>
+  <p class="card-text">
+    La gestión de los residuos informáticos no es solo un reto técnico, sino un <strong>imperativo ético</strong>. A medida que avanzamos hacia una sociedad cada vez más digitalizada, no podemos permitir que el progreso tecnológico se traduzca en la degradación sistemática de nuestro entorno natural. 
+    <br><br>
+    Como hemos analizado, la solución requiere un enfoque tripartito:
+  </p>
+  <ul style="line-height: 1.8; color: #1b4332;">
+    <li><strong>Las Empresas:</strong> Deben abandonar la obsolescencia programada y adoptar el ecodiseño como estándar.</li>
+    <li><strong>Los Gobiernos:</strong> Necesitan endurecer las leyes de reciclaje y garantizar el "Derecho a Reparar".</li>
+    <li><strong>Nosotros los Usuarios:</strong> Debemos transitar desde un consumo impulsivo hacia uno consciente, entendiendo que el dispositivo más ecológico es aquel que ya tenemos y cuidamos.</li>
+  </ul>
+  <p style="margin-top: 15px; font-weight: bold; text-align: center; color: #2d6a4f;">
+    "La verdadera innovación no es solo crear hardware más potente, sino crear tecnología que pueda coexistir en armonía con los límites biológicos de nuestro planeta."
+  </p>
+</div>
 </div>
