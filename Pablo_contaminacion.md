@@ -120,8 +120,8 @@ title: COntaminacion Ambiental
   margin: 20px auto;
   box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3);
 ">
-  <h1 style="margin: 0; font-size: 2.5em; text-transform: uppercase; letter-spacing: 1px;">Residuos Informáticos (e-Waste)</h1>
-  <p style="margin-top: 10px; opacity: 0.9;">El desafío ambiental de la era digital</p>
+  <h1 style="margin: 0; font-size: 2.5em; text-transform: uppercase; letter-spacing: 1px;">Contaminacion Ambiental</h1>
+  <p style="margin-top: 10px; opacity: 0.9;"></p>
 </div>
 
 
