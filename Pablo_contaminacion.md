@@ -128,146 +128,129 @@ title: Residuos Informáticos
 
 ---
 
-## El Ciclo de Vida del Hardware
+## ¿Qué es la contaminación ambiental?
 
-<div class="card-premium border-forest">
-  <div class="card-title">¿Qué son realmente los RAEE?</div>
-  <p class="card-text">
-    Los <strong>Residuos de Aparatos Eléctricos y Electrónicos (RAEE)</strong> no son basura convencional. Son una mezcla compleja de materiales de alto valor y sustancias altamente peligrosas. Su gestión comienza desde el momento en que un dispositivo se vuelve inútil, ya sea por fallo técnico o por obsolescencia, y termina en plantas de tratamiento donde se intenta recuperar su valor residual.
-  </p>
-</div>
- <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 1.webp" class="img-cartoon" alt="Ilustración hardware basura">
-</div>
-<div class="highlight-box">
-  <strong>¿Sabías que...?</strong> Se estima que para el año 2030, el mundo generará más de 74 millones de toneladas métricas de residuos electrónicos anuales. Esto equivale al peso de aproximadamente 350 cruceros de gran tamaño.
-</div>
+La **contaminación ambiental** es la presencia de sustancias o elementos dañinos en el entorno que afectan negativamente a la naturaleza y a los seres vivos.
+
+En la actualidad, el desarrollo tecnológico también tiene impacto en el medio ambiente.  
+La fabricación de dispositivos y el crecimiento industrial requieren recursos naturales y energía, lo que contribuye al aumento de la contaminación si no se gestiona correctamente.
+
 ---
 
-## Minería Urbana: El Tesoro en la Basura
+## Explicación ampliada
 
-A diferencia de la minería tradicional, la **minería urbana** se enfoca en recuperar materiales de dispositivos desechados. Es mucho más eficiente: se obtiene más oro de una tonelada de smartphones que de una tonelada de mineral extraído directamente de la tierra.
+La contaminación ambiental ocurre cuando sustancias **físicas, químicas o biológicas** alteran el equilibrio natural del medio ambiente.
+
+Esto puede afectar:
+
+- El aire  
+- El agua  
+- El suelo  
+- Los ecosistemas  
+- La salud humana  
+
+El crecimiento de la población y la industrialización han aumentado significativamente los niveles de contaminación en muchas partes del mundo.
 
 <div class="grid-visual">
 
   <div class="card-premium border-mint">
-    <div class="card-title">Metales Preciosos</div>
-    <p>Un smartphone promedio contiene trazas de <strong>oro, plata y paladio</strong> en sus circuitos impresos. Su recuperación reduce la necesidad de explotaciones mineras destructivas.</p>
-     <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 2.jpg" class="img-cartoon" alt="metales preciosos en moviles">
-</div>
+    <div class="card-title">Contaminación del Aire</div>
+    <p>Se produce cuando gases tóxicos y partículas contaminantes se liberan a la atmósfera, afectando la calidad del aire que respiramos.</p>
+    <ul>
+      <li>Emisiones de vehículos</li>
+      <li>Industrias</li>
+      <li>Quema de combustibles fósiles</li>
+      <li>Incendios forestales</li>
+    </ul>
   </div>
 
   <div class="card-premium border-lime">
-    <div class="card-title">Tierras Raras</div>
-    <p>Elementos como el neodimio (en imanes de discos duros) y el lantano son vitales pero escasos. El reciclaje es la única forma sostenible de mantener su suministro.</p>
-    <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 3.jpeg" class="img-cartoon" alt="tierras raras">
-</div>
+    <div class="card-title">Contaminación del Agua</div>
+    <p>Ocurre cuando residuos químicos o basura contaminan ríos, lagos y océanos, afectando tanto a la fauna como a los seres humanos.</p>
+    <ul>
+      <li>Vertidos industriales</li>
+      <li>Derrames de petróleo</li>
+      <li>Basura plástica</li>
+      <li>Fertilizantes agrícolas</li>
+    </ul>
   </div>
 
   <div class="card-premium border-earth">
-    <div class="card-title">Cobre y Aluminio</div>
-    <p>Presentes en cables, disipadores y chasis. El reciclaje de aluminio ahorra hasta un <strong>95% de la energía</strong> necesaria para producir aluminio virgen.</p>
-    <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 4.webp" class="img-cartoon" alt="Disipador">
-</div>
-  </div>
-
-  <div class="card-premium border-mint">
-    <div class="card-title">Litio y Cobalto</div>
-    <p>Fundamentales para las <strong>baterías de alto rendimiento</strong>. Su recuperación evita la minería a cielo abierto en ecosistemas sensibles y reduce la dependencia de zonas de conflicto geopolítico.</p>
-     <div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="residuos 5.jpg" class="img-cartoon" alt="litio y cobalto">
-</div>
+    <div class="card-title">Contaminación del Suelo</div>
+    <p>Sucede cuando residuos sólidos o productos químicos se acumulan en la tierra, dañando los ecosistemas y la producción agrícola.</p>
   </div>
 
 </div>
 
 ---
 
-## Impacto Químico y Toxicidad
-
-El peligro surge cuando estos residuos terminan en vertederos ilegales o son manipulados sin protección. La lluvia filtra los metales hacia los acuíferos en un proceso llamado **lixiviación**.
+## Impactos de la Contaminación Ambiental
 
 <table class="tabla-bonita">
   <thead>
     <tr>
-      <th>Componente</th>
-      <th>Ubicación Común</th>
-      <th>Impacto Ambiental y Salud</th>
+      <th>Impacto</th>
+      <th>Descripción</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Cadmio</strong></td>
-      <td>Baterías viejas y resistencias.</td>
-      <td>Afecta gravemente a los riñones y la estructura ósea.</td>
+      <td><strong>Salud humana</strong></td>
+      <td>Puede provocar enfermedades respiratorias y cardiovasculares.</td>
     </tr>
     <tr>
-      <td><strong>Mercurio</strong></td>
-      <td>Monitores planos y lámparas.</td>
-      <td>Neurotóxico persistente que se acumula en la cadena alimentaria.</td>
+      <td><strong>Ecosistemas</strong></td>
+      <td>Destrucción de hábitats naturales y alteración de los equilibrios ecológicos.</td>
     </tr>
     <tr>
-      <td><strong>Bario</strong></td>
-      <td>Tubos de imagen (CRT).</td>
-      <td>Provoca debilidad muscular y daños cardíacos.</td>
+      <td><strong>Biodiversidad</strong></td>
+      <td>Desaparición de especies animales y vegetales.</td>
     </tr>
     <tr>
-      <td><strong>Plomo</strong></td>
-      <td>Soldaduras y cristales.</td>
-      <td>Contamina el suelo por siglos; afecta el desarrollo infantil.</td>
+      <td><strong>Clima</strong></td>
+      <td>Aumento de la temperatura global y cambios climáticos.</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-## La Cara Oculta: La Huella Hídrica y Energética
+## Posibles soluciones
 
-Producir tecnología no solo genera basura al final; consume recursos masivos al principio:
-* **Agua:** Fabricar un solo microchip requiere miles de litros de agua ultra pura.
-* **Energía:** La fase de producción de un portátil representa casi el **70-80%** de su huella de carbono total, mucho más de lo que consumirá encendido durante años.
+Para reducir la contaminación ambiental se pueden aplicar varias acciones:
 
-<div class="tarjeta-manuel" style="text-align: center; border: none; box-shadow: none;">
-  <img src="contaminacion.jpg" class="img-cartoon" alt="informatica ambiental">
-</div>
-
----
-
-## Estrategias de Mitigación Profesional
-
-Para combatir la crisis de los residuos informáticos, se están implementando políticas globales:
-
-1.  **Responsabilidad Ampliada del Productor (RAP):** Obliga a las marcas a financiar la recogida y reciclaje de sus propios productos al final de su vida útil.
-2.  **Ecodiseño:** Fabricar dispositivos sin pegamento, usando tornillos estándar para que cualquier usuario pueda extraer la batería o el disco duro.
-3.  **Certificaciones Verdes:** Sellos como *EPEAT* o *TCO* que garantizan que el producto ha sido fabricado con criterios de baja toxicidad.
+1. **Usar energías renovables** como solar o eólica.  
+2. **Reducir el uso de plásticos** y fomentar materiales reutilizables.  
+3. **Reciclar correctamente** los residuos.  
+4. **Utilizar transporte público, bicicleta o caminar.**  
+5. **Proteger los recursos naturales** y los ecosistemas.
 
 ---
 
-## Conclusión: El Futuro de nuestra Huella Digital
+## Conclusión
 
 <div class="card-premium border-forest" style="background-color: #f1f8e9;">
-  <div class="card-title">Hacia una Tecnología Responsable</div>
+  <div class="card-title">Cuidar el planeta es responsabilidad de todos</div>
+
   <p class="card-text">
-    La gestión de los residuos informáticos no es solo un reto técnico, sino un <strong>imperativo ético</strong>. A medida que avanzamos hacia una sociedad cada vez más digitalizada, no podemos permitir que el progreso tecnológico se traduzca en la degradación sistemática de nuestro entorno natural. 
-    <br><br>
-    Como hemos analizado, la solución requiere un enfoque de estos tres puntos:
+    La contaminación ambiental es uno de los mayores desafíos del mundo actual. 
+    Reducirla requiere educación ambiental, cambios en los hábitos de consumo y políticas sostenibles.
   </p>
-  <ul style="line-height: 1.8; color: #1b4332;">
-    <li><strong>Las Empresas:</strong> Deben abandonar la obsolescencia programada y adoptar el ecodiseño como estándar.</li>
-    <li><strong>Los Gobiernos:</strong> Necesitan endurecer las leyes de reciclaje y garantizar el "Derecho a Reparar".</li>
-    <li><strong>Nosotros los Usuarios:</strong> Debemos transitar desde un consumo impulsivo hacia uno consciente, entendiendo que el dispositivo más ecológico es aquel que ya tenemos y cuidamos.</li>
-  </ul>
+
+  <p>
+    Cada persona puede contribuir con pequeñas acciones diarias como reciclar, 
+    reducir el consumo innecesario y proteger los recursos naturales.
+  </p>
+
   <p style="margin-top: 15px; font-weight: bold; text-align: center; color: #2d6a4f;">
-    "La verdadera innovación no es solo crear hardware más potente, sino crear tecnología que pueda coexistir en armonía con los límites biológicos de nuestro planeta."
+    "Proteger el medio ambiente no es solo una opción, es una necesidad para el futuro de nuestro planeta."
   </p>
 </div>
+
 ---
+
 <div style="display: flex; justify-content: space-between; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e1e4e8;">
   <a href="index.html" style="text-decoration:none; color:#2ea44f; font-weight:bold;">🏠 Volver al Inicio</a>
-  <a href="Sergio_obsolescencia.html" style="text-decoration:none; color:#2d6a4f; font-weight:bold;"> Obsolescencia Programada ➜</a>
 </div>
-</div>
+
 🔙 [⬅ Volver al índice](index.html)
