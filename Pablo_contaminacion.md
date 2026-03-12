@@ -20,7 +20,7 @@ title: COntaminacion Ambiental
   /* --- ESTILO DE LAS TARJETAS (Variante Verde Ecológico) --- */
   .card-premium {
     background: #ffffff;
-    border: 1px solid #e1e4e8;
+    border: 1px solid #38bdf8;
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
