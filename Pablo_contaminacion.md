@@ -58,7 +58,7 @@ title: COntaminacion Ambiental
 
   .tabla-bonita th, .tabla-bonita td {
     padding: 15px 20px;
-    border-bottom: 1px solid #edf2f7;
+    border-bottom: 1px solid #38bdf8;
   }
 
   .tabla-bonita tbody tr:nth-of-type(even) {
