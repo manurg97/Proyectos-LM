@@ -115,7 +115,7 @@ title: COntaminacion Ambiental
   text-align: center;
   padding: 30px;
   border-radius: 15px;
-  background: linear-gradient(135deg, #2d6a4f, #95d5b2);
+  background: linear-gradient(135deg, #38bdf8, #38bdf8);
   color: white;
   margin: 20px auto;
   box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3);
@@ -252,5 +252,3 @@ Para reducir la contaminación ambiental se pueden aplicar varias acciones:
 <div style="display: flex; justify-content: space-between; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e1e4e8;">
   <a href="index.html" style="text-decoration:none; color:#2ea44f; font-weight:bold;">🏠 Volver al Inicio</a>
 </div>
-
-🔙 [⬅ Volver al índice](index.html)
