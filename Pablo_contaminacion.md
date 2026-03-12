@@ -249,6 +249,6 @@ Para reducir la contaminación ambiental se pueden aplicar varias acciones:
 
 ---
 
-<div style="display: flex; justify-content: space-between; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e1e4e8;">
+<div style="display: flex; justify-content: space-between; margin-top: 40px; padding-top: 20px; border-top: 1px solid #38bdf8;">
   <a href="index.html" style="text-decoration:none; color:#2ea44f; font-weight:bold;">🏠 Volver al Inicio</a>
 </div>
