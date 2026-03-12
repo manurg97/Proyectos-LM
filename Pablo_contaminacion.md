@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Residuos Informáticos
+title: COntaminacion Ambiental
 ---
 <style>
   /* --- imagenes ---*/
