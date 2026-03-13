@@ -134,7 +134,7 @@ La **contaminación ambiental** es la presencia de sustancias o elementos dañin
 
 En la actualidad, el desarrollo tecnológico también tiene impacto en el medio ambiente.  
 La fabricación de dispositivos y el crecimiento industrial requieren recursos naturales y energía, lo que contribuye al aumento de la contaminación si no se gestiona correctamente.
- <img src="residuos 1.webp" class="img-cartoon" alt="Ilustración hardware basura">
+ <img src="tipo-de-contaminacion-de-el-aire-scaled.jpeg" class="img-cartoon" alt="Ilustración hardware basura">
  
 --- 
 
