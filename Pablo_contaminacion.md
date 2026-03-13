@@ -118,7 +118,7 @@ La **contaminación ambiental** es la presencia de sustancias o elementos dañin
 La contaminación ambiental ocurre cuando sustancias **físicas, químicas o biológicas** alteran el equilibrio natural del medio ambiente.
 
 <div class="fila-contaminacion">
-  <img src="URL_DE_TU_IMAGEN_AIRE" alt="Aire">
+  <img src="seg.jpg" alt="Aire">
   <div class="contenido-texto">
     <div class="card-title">Contaminación del Aire</div>
     <p>Se produce cuando gases tóxicos y partículas contaminantes se liberan a la atmósfera, afectando la calidad del aire que respiramos.</p>
@@ -131,7 +131,7 @@ La contaminación ambiental ocurre cuando sustancias **físicas, químicas o bio
 </div>
 
 <div class="fila-contaminacion">
-  <img src="URL_DE_TU_IMAGEN_AGUA" alt="Agua">
+  <img src="contaminacion-del-agua-interior2.avif" alt="Agua">
   <div class="contenido-texto">
     <div class="card-title">Contaminación del Agua</div>
     <p>Ocurre cuando residuos químicos o basura contaminan ríos, lagos y océanos, afectando tanto a la fauna como a los seres humanos.</p>
