@@ -144,7 +144,7 @@ La contaminación ambiental ocurre cuando sustancias **físicas, químicas o bio
 </div>
 
 <div class="fila-contaminacion">
-  <img src="URL_DE_TU_IMAGEN_SUELO" alt="Suelo">
+  <img src="basura.jpg" alt="Suelo">
   <div class="contenido-texto">
     <div class="card-title">Contaminación del Suelo</div>
     <p>Sucede cuando residuos sólidos o productos químicos se acumulan en la tierra, dañando los ecosistemas y la producción agrícola.</p>
